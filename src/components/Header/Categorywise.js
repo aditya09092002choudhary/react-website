@@ -1,7 +1,7 @@
 import React from 'react';
+import './Category.css';
 
 const Categorywise = (props) => {
-    document.querySelectorAll(".item")[0].classList.add("active");
     return (
         <div className="item-container ">
             <a href="/" className="item-link">
